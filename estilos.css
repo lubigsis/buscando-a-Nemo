@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.total-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+   background-image: radial-gradient(#0F52BA, #010408);
+}
+
+.total-container .texto{
+    line-height: 49px;    
+}
+
+.total-container .texto h1{
+    font-family: 'Rammetto One', cursive;
+    color: #fff;
+    font-size: 70px;
+    padding-bottom: 1px;
+}
+.total-container .texto h3{
+    color: #fff;
+    font-size: 25px;
+}
+.icono{
+    color: #0F52BA;
+    font-size: 36px;
+    position: relative;
+    left: 199px;
+    top: -47px;
+}
+
+img{
+    margin-top: 1px;
+    border: 3px solid #fff;
+}
