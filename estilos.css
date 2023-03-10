@@ -10,29 +10,53 @@
     align-items: center;
     flex-direction: column;
     height: 100vh;
-   background-image: radial-gradient(#0F52BA, #010408);
+    max-width: 1200px;
+    background-image: radial-gradient(#0F52BA, #010408);
 }
 
 .total-container .texto{
-    line-height: 49px;    
+   /* line-height: 49px;  */  
+    /*border: 1px solid yellow;*/
+    top: 0px;
 }
 
 .total-container .texto h1{
     font-family: 'Rammetto One', cursive;
     color: #fff;
-    font-size: 70px;
-    padding-bottom: 1px;
+    font-size: 30px;
+   /* padding-bottom: 1px;*/
+    letter-spacing: 3px;
 }
+
+.total-container .texto h1 span{
+    font-size: 35px;
+}
+
+
+/*
 .total-container .texto h3{
     color: #fff;
     font-size: 25px;
 }
+
+*/
+
+/*
 .icono{
     color: #0F52BA;
     font-size: 36px;
     position: relative;
     left: 199px;
     top: -47px;
+}
+
+*/
+
+.consigna{
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+    letter-spacing: 1px;
 }
 
 img{
@@ -44,4 +68,8 @@ img{
 p{
     color: #fff;
     font-size: 30px;
+}
+
+.distancia{
+    padding: 10px;
 }

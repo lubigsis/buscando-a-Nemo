@@ -16,18 +16,18 @@ let getDistance = (e, Nemo) => {
 
 let pistas = distance =>{
     if (distance < 30){
-        return "Boiling!";
+        return "Hirviendo!";
     }else if (distance < 40){ 
-        return "Really hot!";
+        return "Muy caliente!";
     }else if(distance < 60){
-        return "Hot";
+        return "Caliente";
     }else if (distance < 100){
-        return "Warm...";
+        return "Tibio...";
     }else if (distance < 180){
-        return "Cold";
+        return "Frío";
     }else if (distance < 360){
-        return "Really cold";
+        return "Muy frío";
     }else {
-        return "Freezing!";
+        return "Congelado!";
     }
 }

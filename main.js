@@ -1,8 +1,7 @@
 const WIDTH = 533;
 const HEIGHT = 400; 
 
-
-/*genero ubicación aleatoria de Nemo*/
+/*------------------------------------genero ubicación aleatoria de Nemo*/
 let Nemo = {
     x: getRandomNumber(WIDTH),
     y: getRandomNumber(HEIGHT)
@@ -20,7 +19,7 @@ elementoMapHTML.addEventListener('click', function (e){
     distanciaRefHTML.innerHTML = distanciaPista;
 
     if(distance < 20){
-        alert('Great, you have found Nemo in ' + cantidadClicks + ' clicks!');
+        alert('¡Genial, has encontrado a Nemo en ' + cantidadClicks + ' clicks!');
         location.reload();
     }
 })
